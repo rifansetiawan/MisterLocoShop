@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mister Loco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="col-1 col-s-6">
+            <img src="asset/search.png" alt="Search" id="imgSearch">
+        </div>
+        <div class="col-2 col-s-6">
+            <input type="text" id="inputSearch" placeholder="Search">
+        </div>
+        <div class="col-7 col-s-12">
+            <img src="asset/logo.png" alt="Logo" id="imgLogo">
+        </div>
+        <div class="col-1 col-s-6">
+            <img src="asset/love.png" alt="Love" id="imgLove">
+        </div>
+        <div class="col-1 col-s-6">
+            <img src="asset/shop.png" alt="Shop" id="imgShop">
+        </div>
+    </div>
+    <div class="navigation col-12 s-12">
+        <a href="Home.html" class="navigation-item" id="home">Home</a>
+        <span class="dropdown">
+            <a href="#" id="products">Products</a>
+            <div class="dropdown-content">
+                <a href="product_1.html">Clothes</a>
+                <a href="product_2.html">Pants</a>
+            </div>
+        </span>
+        <a href="order.html" class="navigation-item" id="order">Order</a>
+        <span class="dropdown">
+            <a href="#" id="moreInfo">More Info</a>
+            <div class="dropdown-content">
+                <a href="contact_us.html">Contact Us</a>
+                <a href="partner.html">Partner</a>
+            </div>
+        </span>
+        <hr>
+    </div>
+    <div class="col-12 col-s-12 content">
+        <div class="slideshow-container">
+            <div class="Slides fade">
+                <img src="asset/img1.jpg" class="imgSlides">
+            </div>
+
+            <div class="Slides fade">
+                <img src="asset/img2.jpg" class="imgSlides">
+            </div>
+
+            <div class="Slides fade">
+                <img src="asset/img3.jpg" class="imgSlides">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+    </div>
+    <div class="col-s-12 col-12" id="title">
+        <h1>New Products In Sale!!!</h1>
+    </div>
+    <div id="newProduct" class="col-12 col-s-12">
+        <div id="container">
+            <div class="tabbed">
+                <div class="tab-content">
+                    <div class="items">
+                        <div class="cl">&nbsp;</div>
+                        <ul>
+                            <li>
+                                <div class="image"> <a href="#"><img src="asset/image1.jpg" alt="" /></a> </div>  Brand Name: <a href="#"><br>MANGO</a>
+                                <br>
+                                Description :
+                                <br>Bow Cotton T-Shirt
+                                </br>
+                                Color :
+                                White
+                                <br>
+                                Size : M/L/XL
+                                <br>
+                                Material : Cotton
+                                </p>
+                                <p class="price"> Price: <strong>Rp250.000</strong></p>
+                            </li>
+                            <li>
+                                <div class="image"> <a href="#"><img src="asset/image2.jpg" alt="" /></a> </div>  Brand Name: <a href="#">MOUTLEY</a>
+                                <br>
+                                Description :
+                                <br>Ladies T-Shirt 305
+                                <br>
+                                Color :
+                                Lines Red Pink
+                                <br>
+                                Size : M/L/XL
+                                <br>
+                                Material : Polyester
+                                </p>
+                                <p class="price"> Price: <strong>Rp150.000</strong></p>
+                            </li>
+                            <li>
+                                <div class="image"> <a href="#"><img src="asset/bawahan1.jpg" alt="" /></a> </div>  Brand Name: <a href="#">MISSGUID</a>
+                                <br>
+                                Description :
+                                <br>Ripped Mom Jeans
+                                </br>
+                                Color :
+                                Pink
+                                <br>
+                                Size : M/L/XL
+                                <br>
+                                Material : Jeans
+                                </p>
+                                <p class="price"> Price: <strong>Rp110.000</strong></p>
+                            </li>
+                            <li>
+                                <div class="image"> <a href="#"><img src="asset/bawahan2.jpg" alt="" /></a> </div>  Brand Name: <a href="#"><br>ZALIA</a>
+                                <br>
+                                Description :
+                                <br>Embelished Flare Jeans
+                                </br>
+                                Color :
+                                Blue Navy
+                                <br>
+                                Size : M/L/XL
+                                <br>
+                                Material : Denim
+                                </p>
+                                <p class="price"> Price: <strong>Rp115.000</strong></p>
+                            </li>
+                            <li class="last"></li>
+                        </ul>
+                        <div class="cl">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-s-12" id="newsletter">
+        <h2>Join our newsletter</h2>
+        <div>
+            <input type="text" placeholder="ENTER YOUR EMAIL" id="inputNewsLetter">
+        </div>
+    </div>
+    <div class="col-12 col-s-12 footer">
+        <a href="http://www.facebook.com" target="_blank"><img src="asset/facebook.png" alt=""></a>
+        <a href="http://www.youtube.com" target="_blank"><img src="asset/youtube.png" alt=""></a>
+        <a href="http://www.twitter.com" target="_blank"><img src="asset/twitter.png" alt=""></a>
+        <a href="http://www.instagram.com" target="_blank"><img src="asset/instagram.png" alt=""></a>
+        <p>©2018 Mister Loco</p>
+    </div>
+    <script type="text/javascript" src="home.js"></script>
+</body>
+</html>
